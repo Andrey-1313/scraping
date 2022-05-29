@@ -125,7 +125,4 @@ for i in products_list:
 							 (filters[0], filters[1], i['seo_url'], itm))
 						cnx.commit()
 
-
-
-
 cnx.close()
